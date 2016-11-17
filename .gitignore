@@ -1,0 +1,19 @@
+*.DS_Store
+*.pyc
+*.swp
+temp/*
+dist/*
+build/*
+bidu/datasets/data/*
+bidu/datasets/temp/*
+docs/site/*
+docs/theme/*
+tags
+bidu.egg-info
+
+# test-related
+.coverage
+.cache
+
+# developer environments
+.idea
