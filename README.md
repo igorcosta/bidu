@@ -2,8 +2,14 @@
 
 ###Long short description:
 
-Bidu is a high-level neural networks library, written in Python and capable of running on top of either [TensorFlow](https://github.com/tensorflow/tensorflow).
-It was developed with a focus on enabling fast experimentation. *Being able to go from idea to result with the least possible delay is key to doing good research.*
+Bidu is a high-level neural networks library, written in Python and capable of running on top of [TensorFlow](https://github.com/tensorflow/tensorflow).
+It was developed with a focus on enabling fast experimentation.
+Bidu aims to do a simpler approach, create a subset of new apis that connects directly to tensorflow.
+Since we created based on top of [keras](https://github.com/fchollet/keras), which the intent is to create a much better api for many deep learning frameworks, bidu is just a simplification of keras, but using a more advanced orcherstration of ingestion of data.
+
+Since Bidu is focused on TensorFlow, we want to add the support for [Apache Spark](http://spark.apache.org)
+
+*Being able to go from idea to result with the least possible delay is key to doing good research.*
 
 Use Bidu if you need a deep learning library that:
 
@@ -114,3 +120,6 @@ To install bidu, `cd` to the bidu folder and run the install command:
 ```sh
 sudo python setup.py install
 ```
+
+## credits
+Bidu is a fork of [Keras](https://github.com/fchollet/keras) which does connect directly to Tensorflow and theranos.
